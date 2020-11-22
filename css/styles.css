@@ -1,0 +1,81 @@
+.bg-facebook {
+    width: 24px; height: 24px;
+    background: url('../images/css_sprites_gray.png') -10px -10px;
+}
+.bg-twitter {
+    width: 24px; height: 24px;
+    background: url('../images/css_sprites_gray.png') -54px -10px;
+}
+.bg-dribble {
+    width: 24px; height: 24px;
+    background: url('../images/css_sprites_gray.png') -98px -10px;
+}
+.bg-facebook:hover {
+    width: 24px; height: 24px;
+    background: url('../images/css_sprites.png') -10px -10px;
+}
+.bg-twitter:hover {
+    width: 24px; height: 24px;
+    background: url('../images/css_sprites.png') -54px -10px;
+}
+.bg-dribble:hover {
+    width: 24px; height: 24px;
+    background: url('../images/css_sprites.png') -98px -10px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+.media {
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+@media (min-width: 0px) {
+    .img {
+        content: url("../images/img-01.jpg");
+        max-width: 80%;
+    }
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+    .img {
+        content: url("../images/img-01.jpg");
+        max-width: 80%;
+    }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+    .img {
+        content: url("../images/img-02.jpg");
+        max-width: 80%;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .img {
+        content: url("../images/img-03.jpg");
+        max-width: 80%;
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    .img {
+        content: url("../images/img-04.png");
+        max-width: 80%;
+    }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+    .img {
+        content: url("../images/img-04.png");
+        max-width: 80%;
+    }
+}

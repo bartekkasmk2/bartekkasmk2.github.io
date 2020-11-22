@@ -1,0 +1,86 @@
+body {
+    background-color: #3f3f3f;
+    color: #eee;
+}
+
+.navigation-bar h1
+{
+    font-size: 6rem;
+    font-family: 'Roboto', sans-serif;
+}
+.navigation-bar {
+    overflow: hidden;
+    color: #eee;
+    background-color: #3f3f3f;
+}
+.navigation-bar div {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #101010;
+}
+@media (min-width: 601px) {
+    .navigation-bar 
+    {
+        text-align: center;
+        height: 14rem;
+    }
+}
+@media (max-width: 600px) {
+    .navigation-bar h1 {
+        text-align: center;
+    }
+    .navigation-bar form {
+        margin: auto;
+        width: 150px;
+    }
+    .navigation-bar 
+    {
+        height: 32rem;
+    }
+    label {
+        display: block;
+    }
+}
+ul {
+    padding-top: 30px;
+}
+.social, .contact {
+    width: 200px;
+    margin: auto;
+}
+@media (min-width: 601px) {
+    .social, .contact {
+        width: 200px;
+    }
+}
+footer
+{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #101010;
+}
+/*@media (min-width: 601px) {
+    footer
+    {
+        text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    footer div ul li
+    {
+        display: block;
+    }
+}*/
+.portfolio
+{
+    text-align: center;
+}
+.img
+{
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
